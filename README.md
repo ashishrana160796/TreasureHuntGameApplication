@@ -9,4 +9,4 @@ Recommended Additional Features that we are looking for :
 
 1. The code is yet to be optimized and standardized.
 2. Looking for much more interactive and interesting UI.
-3. Also being able to image puzzles instead of String puzzles.
+3. Also adding image puzzles instead of String puzzles.
