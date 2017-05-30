@@ -32,6 +32,9 @@ public class Q6 extends Activity {
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		editor.putInt("number", 6);
+
+        t6.setText(prefs.getString("t6","Caution is needed going this way A tarmac place of bay bay bay Now is the time to leave the car If you leave from here you’ll go far."));
+
 		editor.commit();
     }
 

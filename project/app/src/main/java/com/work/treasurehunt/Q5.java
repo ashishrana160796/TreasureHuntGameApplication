@@ -35,6 +35,9 @@ public class Q5 extends Activity {
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		editor.putInt("number", 5);
+
+        t5.setText(prefs.getString("t5","There is a place we go for a walk The children play and we can talk Find this place if you want a lark."));
+
 		editor.commit();
     }
 

@@ -26,8 +26,8 @@ import static com.work.treasurehunt.Q9.t9;
 public class EditPuzzles extends AppCompatActivity {
 
     EditText p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, phn;
-    //TextView t1, t2, t3, t4, t5, t6, t7, t8 , t9, t10;
-    Context context;
+    // TextView t1, t2, t3, t4, t5, t6, t7, t8 , t9, t10;
+    // Context context;
 
 
 
@@ -50,7 +50,7 @@ public class EditPuzzles extends AppCompatActivity {
 
         //  phn = (EditText)findViewById(R.id.phoneNo);
 
-
+        /*
         t1 = (TextView)findViewById(R.id.q1);
         t2 = (TextView)findViewById(R.id.q2);
         t3 = (TextView)findViewById(R.id.q3);
@@ -63,6 +63,7 @@ public class EditPuzzles extends AppCompatActivity {
         t10 = (TextView)findViewById(R.id.q10);
 
         context = getApplicationContext();
+        */
 
     }
 
@@ -79,11 +80,14 @@ public class EditPuzzles extends AppCompatActivity {
         String sp8 = p8.getText().toString();
         String sp9 = p9.getText().toString();
         String sp10 = p10.getText().toString();
+
         //String spphn = phn.getText().toString();
 
         if(sp1 !=null && sp2!=null && sp3!=null && sp4!=null && sp5!=null && sp6!=null && sp7!=null && sp8!=null && sp9!=null && sp10!=null ){
-            //check if all views are of
-            t1.setText(sp1);
+
+            //these views generate null pointer exceptions
+
+            /*t1.setText(sp1);
             t2.setText(sp2);
             t3.setText(sp3);
             t4.setText(sp4);
@@ -94,15 +98,26 @@ public class EditPuzzles extends AppCompatActivity {
             t9.setText(sp9);
             t10.setText(sp10);
             Toast.makeText(this, "Changes Done", Toast.LENGTH_LONG).show();
-
+*/
             // SharedPreference Usage
-            /*
+
 
             SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
             SharedPreferences.Editor editor = prefs.edit();
-            editor.putString("number",spphn);
+
+            editor.putString("t1",sp1);
+            editor.putString("t2",sp2);
+            editor.putString("t3",sp3);
+            editor.putString("t4",sp4);
+            editor.putString("t5",sp5);
+            editor.putString("t6",sp6);
+            editor.putString("t7",sp7);
+            editor.putString("t8",sp8);
+            editor.putString("t9",sp9);
+            editor.putString("t10",sp10);
             editor.commit();
-*/
+
+            Toast.makeText(this, "Changes are saved", Toast.LENGTH_LONG).show();
 
         }
         else
@@ -111,6 +126,7 @@ public class EditPuzzles extends AppCompatActivity {
         }
 
     }
+
 
     public void onResetPuzzle(View v){
 
@@ -125,7 +141,8 @@ public class EditPuzzles extends AppCompatActivity {
         String clue9 = "We roll in cash everywhere, but we it safe here.";
         String clue10 = "To solve the hunt you must get Into the room wired to the net Crammed with tech and full of code The clue is hidden in this abode.";
 
-
+        // yields null pointer exception
+        /*
         t1.setText(clue1);
         t2.setText(clue2);
         t3.setText(clue3);
@@ -136,13 +153,24 @@ public class EditPuzzles extends AppCompatActivity {
         t8.setText(clue8);
         t9.setText(clue9);
         t10.setText(clue10);
-/*
+        */
+
+
         SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
-        editor.putString("number", null);
+        editor.putString("t1",clue1);
+        editor.putString("t2",clue2);
+        editor.putString("t3",clue3);
+        editor.putString("t4",clue4);
+        editor.putString("t5",clue5);
+        editor.putString("t6",clue6);
+        editor.putString("t7",clue7);
+        editor.putString("t8",clue8);
+        editor.putString("t9",clue9);
+        editor.putString("t10",clue10);
         editor.commit();
-*/
 
+        Toast.makeText(this, "Resetting Done", Toast.LENGTH_LONG).show();
 
     }
 

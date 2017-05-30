@@ -32,6 +32,9 @@ public class Q8 extends Activity {
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		editor.putInt("number", 8);
+
+        t8.setText(prefs.getString("t8", "Take note of all I say Observed only by day Looked at by all bar teach With chalk to me you reach."));
+
 		editor.commit();
     }
 

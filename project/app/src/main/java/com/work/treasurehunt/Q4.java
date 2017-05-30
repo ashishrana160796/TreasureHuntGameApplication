@@ -32,7 +32,11 @@ public class Q4 extends Activity {
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		editor.putInt("number", 4);
-		editor.commit();
+
+        t4.setText(prefs.getString("t4","Somewhere deep inside lies a blue sky All drowned in it Jack, Rose and a ship so high."));
+
+
+        editor.commit();
     }
 
     public void launchScanner(View v) {

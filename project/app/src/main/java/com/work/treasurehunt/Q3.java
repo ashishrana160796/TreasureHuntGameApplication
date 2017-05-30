@@ -32,6 +32,9 @@ public class Q3 extends Activity {
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		editor.putInt("number", 3);
+
+        t3.setText(prefs.getString("t3","If you want your souls lift where the creature drifts This is a present I would say I wish you well this day."));
+
 		editor.commit();
     }
 

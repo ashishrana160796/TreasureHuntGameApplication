@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 31 01:13:38 IST 2017
+#Wed May 31 02:29:30 IST 2017
 210.set=ANDROID_RESOURCE
 282.file=/home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
 14.set=NATIVE_RESOURCE

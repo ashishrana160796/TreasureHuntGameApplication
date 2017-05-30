@@ -33,6 +33,9 @@ public class Q7 extends Activity {
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		editor.putInt("number", 7);
+
+        t7.setText(prefs.getString("t7", "Saving net to protect her, But still cannot get her."));
+
 		editor.commit();
     }
 

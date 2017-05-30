@@ -29,13 +29,19 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        t1 = (TextView) findViewById(R.id.q1);
 
         SharedPreferences prefs = getSharedPreferences("prefs",
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		editor.putInt("number", 1);
-		editor.commit();
+
+        t1 = (TextView) findViewById(R.id.q1);
+        t1.setText(prefs.getString("t1","We roll in cash everywhere, but we it safe here."));
+
+
+
+        editor.commit();
+
     }
 
     // Control moves to the activity ZBarScannerAcitivity which will be returning a result.

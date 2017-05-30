@@ -32,6 +32,9 @@ public class Q9 extends Activity {
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		editor.putInt("number", 9);
+
+        t9.setText(prefs.getString("t9","We roll in cash everywhere, but we it safe here."));
+
 		editor.commit();
     }
 

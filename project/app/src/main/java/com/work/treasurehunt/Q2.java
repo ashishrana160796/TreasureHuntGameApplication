@@ -31,7 +31,11 @@ public class Q2 extends Activity {
         SharedPreferences prefs = getSharedPreferences("prefs",
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
-		editor.putInt("number", 2);
+
+        t2.setText(prefs.getString("t2","I’m full of pins and interesting stuff People stare and can’t get enough Paper and invites hang around Up on the wall I can be found."));
+
+
+        editor.putInt("number", 2);
 		editor.commit();
     }
 

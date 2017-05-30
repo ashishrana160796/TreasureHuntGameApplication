@@ -34,6 +34,9 @@ public class Q10 extends Activity {
 				MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		editor.putInt("number", 10);
+
+        t10.setText(prefs.getString("t10","To solve the hunt you must get Into the room wired to the net Crammed with tech and full of code The clue is hidden in this abode."));
+
 		editor.commit();
     }
 
