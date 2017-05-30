@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/res/merged/debug/menu/rules.xml",
+        "source": "/home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/res/menu/rules.xml"
+    },
+    {
+        "merged": "/home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/res/merged/debug/menu/end.xml",
+        "source": "/home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/res/menu/end.xml"
+    },
+    {
+        "merged": "/home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/res/merged/debug/menu/developers.xml",
+        "source": "/home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/res/menu/developers.xml"
+    },
+    {
+        "merged": "/home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/res/merged/debug/menu/secondscreen.xml",
+        "source": "/home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/res/menu/secondscreen.xml"
+    }
+]

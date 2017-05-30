@@ -1,0 +1,244 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:3:1-111:12
+	package
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:4:5-36
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:3:11-69
+uses-sdk
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:8:5-43
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:8:15-40
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:10:22-62
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:11:5-69
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:11:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:12:22-72
+uses-feature#android.hardware.camera2
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:14:5-61
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:14:19-58
+uses-feature#android.hardware.camera
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:16:9-47
+uses-permission#phone
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:19:5-45
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:19:22-42
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:21:22-77
+application
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:23:5-109:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:25:9-41
+	android:icon
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:24:9-43
+	android:theme
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:26:9-67
+activity#com.work.treasurehunt.MainActivity
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:28:9-31:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:31:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:29:13-62
+activity#com.work.treasurehunt.Passcode
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:32:9-35:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:35:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:33:13-58
+activity#com.work.treasurehunt.ZBarScannerActivity
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:37:9-40:53
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:40:13-50
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:39:13-45
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:38:13-69
+activity#com.work.treasurehunt.Q2
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:41:9-44:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:43:13-54
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:42:13-52
+activity#com.work.treasurehunt.Q3
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:45:9-48:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:48:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:47:13-54
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:46:13-52
+activity#com.work.treasurehunt.Q4
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:49:9-52:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:52:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:50:13-52
+activity#com.work.treasurehunt.Q5
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:53:9-56:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:55:13-54
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:54:13-52
+activity#com.work.treasurehunt.Q6
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:57:9-60:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:59:13-54
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:58:13-52
+activity#com.work.treasurehunt.Q7
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:61:9-64:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:63:13-54
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:62:13-52
+activity#com.work.treasurehunt.Q8
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:65:9-68:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:67:13-54
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:66:13-52
+activity#com.work.treasurehunt.Q9
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:69:9-72:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:72:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:71:13-54
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:70:13-52
+activity#com.work.treasurehunt.Q10
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:73:9-76:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:76:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:75:13-55
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:74:13-53
+activity#com.work.treasurehunt.End
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:77:9-80:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:80:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:79:13-55
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:78:13-53
+activity#com.work.treasurehunt.Splash
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:81:9-90:20
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:83:13-42
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:82:13-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:85:13-89:29
+action#android.intent.action.MAIN
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:86:17-69
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:86:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:88:17-77
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:88:27-74
+activity#com.work.treasurehunt.Secondscreen
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:93:9-96:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:96:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:95:13-64
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:94:13-62
+activity#com.work.treasurehunt.Rules
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:97:9-100:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:100:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:99:13-57
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:98:13-55
+activity#com.work.treasurehunt.Developers
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:101:9-104:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:104:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:103:13-62
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:102:13-60
+activity#com.work.treasurehunt.EditPuzzles
+ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:106:9-108:61
+	android:screenOrientation
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:108:13-49
+	android:label
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:107:13-40
+	android:name
+		ADDED from /home/ash1sh/Android_Projects/TreasureHuntApplicationGameProject/project/app/src/main/AndroidManifest.xml:106:19-67

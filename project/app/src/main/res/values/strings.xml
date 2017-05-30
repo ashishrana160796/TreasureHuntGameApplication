@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Treasure Hunt</string>
+    <string name="title_activity_q2">Q2</string>
+    <string name="action_settings">Developer Options</string>
+    <string name="title_activity_q3">Q3</string>
+    <string name="title_activity_q4">Q4</string>
+    <string name="title_activity_q5">Q5</string>
+    <string name="title_activity_q6">Q6</string>
+    <string name="title_activity_q7">Q7</string>
+    <string name="title_activity_q8">Q8</string>
+    <string name="title_activity_q9">Q9</string>
+    <string name="title_activity_q10">Q10</string>
+    <string name="title_activity_end">End</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_buttons">ButtonsActivity</string>
+    <string name="title_activity_secondscreen">Secondscreen</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="title_activity_developers">Developers</string>
+
+</resources>
