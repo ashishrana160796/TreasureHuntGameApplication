@@ -30,7 +30,7 @@ public class End extends ActionBarActivity {
 
 	}
 
-	public void  Owasp(View v){
+	public void  onCallNow(View v){
 
 		nostr = e1.getText().toString();
 		if(e1!=null && nostr.length()==10)

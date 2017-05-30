@@ -39,7 +39,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:background="#263238"
-        android:onClick="Owasp"
+        android:onClick="onCallNow"
         android:text="Call"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
