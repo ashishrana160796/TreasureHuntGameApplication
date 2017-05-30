@@ -43,7 +43,7 @@
                 android:gravity="center"
                 android:text="RULES"
                 android:textColor="#444"
-                android:textSize="40dp" />
+                android:textSize="30dp" />
 
         </TableRow>
 

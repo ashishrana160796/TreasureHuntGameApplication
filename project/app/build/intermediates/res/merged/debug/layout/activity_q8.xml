@@ -8,6 +8,32 @@
     android:layout_height="fill_parent"
     android:background="#C5EFF7">
 
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458"
+        android:src="@drawable/line" />
+
     <TextView
         android:id="@+id/q8"
         android:layout_width="wrap_content"
@@ -50,7 +76,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9"
+        app:layout_constraintVertical_bias="0.957"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintTop_creator="1" />
 
@@ -70,7 +96,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/tallship" />
+        android:src="@drawable/tallship" />
 
 </android.support.constraint.ConstraintLayout>
 
